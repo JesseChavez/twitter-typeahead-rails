@@ -12,6 +12,8 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{twitter-typeahead-rails packages the typeahead.js jquery plugin for rails}
   gem.homepage      = "https://github.com/yourabi/twitter-typeahead-rails"
 
+  gem.metadata['allowed_push_host'] = 'http://gems.ibsa.vlan:8808'
+
   gem.add_dependency             'railties',   '>= 3.1'
   gem.add_dependency             'actionpack', '>= 3.1'
   gem.add_dependency             'jquery-rails'
